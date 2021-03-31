@@ -58,3 +58,5 @@ Route::post('/ipn', 'SslCommerzPaymentController@ipn');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/oneclick', 'HomeController@oneclick')->name('oneclick');
